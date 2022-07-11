@@ -4,7 +4,7 @@ const {add,getAll,deleteone,update} =require("./handlers/handlers.js")
 const path=require("path")
 const cors=require("cors")
 app.use(cors())
-app.use(express.static(path.join(__dirname,"../client/public")))
+// app.use(express.static(path.join(__dirname,"../client/public")))
 
 // middlewares
 app.use(express.json())
